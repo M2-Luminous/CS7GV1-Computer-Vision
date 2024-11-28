@@ -14,27 +14,27 @@ ground_truth_data = [
     ("CamVidLights09.png", "Green", 359, 246, 380, 305),("CamVidLights09.png", "Green", 630, 279, 646, 327),
     ("CamVidLights10.png", "Green", 260, 122, 299, 239),("CamVidLights10.png", "Green", 691, 271, 705, 315),
     ("CamVidLights11.png", "Green", 331, 260, 349, 312),("CamVidLights11.png", "Green", 663, 280, 679, 322),
-    ("CamVidLights12.png", "Green", 373, 219, 394, 279),("CamVidLights12.png", "Green", 715, 242, 732, 299),
-    ("CamVidLights13.png", "Red", 283, 211, 299, 261),("CamVidLights13.png", "Red", 604, 233, 620, 279),
-    ("CamVidLights14.png", "Red", 294, 188, 315, 253),("CamVidLights14.png", "Red", 719, 225, 740, 286)
+    ("CamVidLights12.png", "Green", 373, 219, 394, 279),("CamVidLights12.png", "Green", 715, 242, 732, 299)
+    #("CamVidLights13.png", "Red", 283, 211, 299, 261),("CamVidLights13.png", "Red", 604, 233, 620, 279),
+    #("CamVidLights14.png", "Red", 294, 188, 315, 253),("CamVidLights14.png", "Red", 719, 225, 740, 286)
 ]
 
 # List of image paths
 image_paths = [
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights01.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights02.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights03.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights04.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights05.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights06.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights07.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights08.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights09.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights10.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights11.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights12.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights13.png',
-    'C:/Users/M2-Winterfell/Downloads/CamVidLights/CamVidLights14.png'
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights01.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights02.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights03.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights04.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights05.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights06.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights07.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights08.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights09.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights10.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights11.png',
+    'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights12.png'
+    #'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights13.png',
+    #'C:/Users/M2-Winterfell/Downloads/Computer Vision/Final/CamVidLights14.png'
 ]
 
 def detect_traffic_light_back_projection(image_path):
